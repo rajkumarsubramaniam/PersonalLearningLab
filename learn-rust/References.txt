@@ -1,0 +1,6 @@
+References for Rust:
+1. Rust book: https://doc.rust-lang.org/book/
+2. Rust by example: https://doc.rust-lang.org/rust-by-example/
+3. Rust Cheatsheet: https://cheats.rs/
+4. Rustonomicon: https://doc.rust-lang.org/nomicon/intro.html  This book actually talks about the various details a system programmer should know about Rust.
+5. The Rust Reference: https://doc.rust-lang.org/reference/index.html 

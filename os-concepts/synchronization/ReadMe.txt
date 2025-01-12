@@ -9,4 +9,4 @@ Configuring Mingw-w64 compiler, https://code.visualstudio.com/docs/cpp/config-mi
 Initially I was using an old compiler and switched to this new one.
 
 Tips:
--> To learn the assembly implementation, use 'gcc -S' flag and refer generated .ass
+-> To learn the assembly implementation, use 'gcc -S' flag and refer generated .asm
