@@ -1,0 +1,38 @@
+# Simple .gitignore file from AI
+# IDE/Editor-specific files and directories
+.idea/         # Ignore JetBrains IDE configuration files
+.vscode/       # Ignore VS Code configuration files
+*.suo
+*.user
+*.casc
+*.lock.json    # Package lock files
+.DS_Store      # Ignore macOS system files
+Thumbs.db      # Ignore Windows system files
+
+# Dependency directories
+node_modules/  # Ignore Node.js dependencies
+/venv/         # Ignore Python virtual environments
+/env/
+
+# Compilation/Build products
+/dist/         # Ignore distribution/build folder
+/build/
+/target/
+*.o            # Object files
+*.obj
+*.class        # Java compiled code
+*.pyc          # Python compiled code
+
+# Log files and temporary files
+logs/
+*.log          # Ignore all .log files
+*.tmp          # Ignore all .tmp files
+*.temp
+temp/          # Ignore temp directory
+
+# Environment variables and sensitive data
+.env           # Environment variable files
+api_keys.txt   # Example of a sensitive file (use with caution if already committed)
+
+# Negation example: ignore all logs except an important one
+!important.log

@@ -4,3 +4,20 @@ References for Rust:
 3. Rust Cheatsheet: https://cheats.rs/
 4. Rustonomicon: https://doc.rust-lang.org/nomicon/intro.html  This book actually talks about the various details a system programmer should know about Rust.
 5. The Rust Reference: https://doc.rust-lang.org/reference/index.html 
+
+Installation:
+Quick start
+    Install rustup.
+    Install the rust-analyzer extension.
+Good to know:
+    https://code.visualstudio.com/docs/languages/rust - refer this first.
+    rustup update
+    rustc --version
+    To compile: rustc main.rs
+    Local Rust doc: rustup doc
+    Cargo comes with the rustup Installation
+        > cargo new projectname
+        > cargo build ---> for compilation.
+        > cargo run  --> for running the app.
+    IntelliSense (code autofill and other features for vs code) features are provided by the Rust language server, 
+rust-analyzer, which provides detailed code information and smart suggestions.
