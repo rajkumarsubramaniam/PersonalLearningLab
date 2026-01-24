@@ -22,6 +22,7 @@ node_modules/  # Ignore Node.js dependencies
 *.obj
 *.class        # Java compiled code
 *.pyc          # Python compiled code
+*.exe          # any exe 
 
 # Log files and temporary files
 logs/
